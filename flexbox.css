@@ -1,8 +1,23 @@
 .box{
  border: 3px dashed peru;
  width:100px;
-height: 100px;
+/* height: 100px; */
+font-size: 3ex;
+font-weight: 700;
 }
 .container{
     border: 3px dotted purple;
+    display: flex;
+    height: 300px;
+    /* justify-content:center;
+    justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-end; */
+    /* align-items: center;
+    flex-wrap: wrap; */ 
+    align-items: stretch;
+
+}
+#box-2{
+flex-grow: 1;
 }
