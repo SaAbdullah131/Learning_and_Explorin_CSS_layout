@@ -1,0 +1,47 @@
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login-form {
+
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.login-form input {
+    margin-top:1em;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+.login-form input[type="submit"]{
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+/* just use two child inside of parents  */
+/* nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    margin-right: 15px;
+    font-size: 20px;
+} */
+nav a {
+
+    text-decoration: none;
+    margin-right: 10px;
+    color:black;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
