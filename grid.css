@@ -1,0 +1,16 @@
+
+
+.container {
+    display: grid;
+    /* grid-template-columns: 200px auto 2000px 200px; */
+    /* grid-template-columns:repeat(4,200px); */
+    /* grid-template-columns:repeat(3,1fr) 100px; */
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-around;
+   justify-content: center;
+    
+}
+.item {
+    border:1px solid indianred;
+    font-size: 1.5em;
+}
