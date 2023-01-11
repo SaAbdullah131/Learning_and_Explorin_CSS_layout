@@ -1,0 +1,30 @@
+
+
+body {
+    max-width: 800px;
+    margin:0 auto;
+    border: 1px solid plum;
+}
+h1{
+    font-size: 10vw;
+}
+.tiger {
+    width: 100%;
+}
+.container-two {
+    display: flex;
+}
+.container-two .split {
+    width:50%;
+}
+.split img {
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .container-two {
+        flex-direction: column-reverse;
+    }
+    .container-two .split {
+        width:100%;
+    }
+}
